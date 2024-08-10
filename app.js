@@ -11,10 +11,18 @@ const today = new Date();
 // console.log(array[6]);
 
 // let text = array.toString();
-// console.log(text);
+// console.log(text.toUpperCase());
 
-// text.toUpperCase();
-// console.log(text);
+// // text.toUpperCase();
+// // console.log(text);
+
+// var array1 = text;
+// console.log(array1.toLowerCase());
+
+// console.log(array1.toUpperCase());
+
+
+
 
 const weekDays = ["sunday","monday","tuesday","wednessday","thursday","friday","saturday"];
 
