@@ -7,9 +7,21 @@ const year = document.getElementById("year");
 
 const today = new Date();
 
+// const array = ["sunday","monday","tuesday","wednessday","thursday","friday","saturday"];
+// console.log(array[6]);
+
+// let text = array.toString();
+// console.log(text);
+
+// text.toUpperCase();
+// console.log(text);
+
 const weekDays = ["sunday","monday","tuesday","wednessday","thursday","friday","saturday"];
 
+const allMonths =["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+
 date.innerHTML = today.getDate();
-day.innerHTML = weekDays[toUpperCase(today.getDay())];
-month.innerHTML = today.getMonth();
+day.innerHTML = weekDays[today.getDay()];
+month.innerHTML = allMonths[today.getMonth()];
 year.innerHTML = today.getFullYear();
