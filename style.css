@@ -39,3 +39,7 @@
 .left{
     width: 60%;
 }
+#date{
+    font-size: 70px;
+    line-height:55px ;
+}
