@@ -12,3 +12,11 @@
     align-items: center;
     justify-content: center;
 }
+.calender{
+    width: 300px;
+    height: 250px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
