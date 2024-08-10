@@ -33,7 +33,7 @@ let weekDays = ["sunday","monday","tuesday","wednessday","thursday","friday","sa
 
 
 
-const allMonths =["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const allMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 
 date.innerHTML = (today.getDate() < 10 ?"0" : "") + today.getDate();
