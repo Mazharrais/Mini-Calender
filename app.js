@@ -7,9 +7,9 @@ const year = document.getElementById("year");
 
 const today = new Date();
 
-console.log(today);
+const weekDays = ["sunday","monday","tuesday","wednessday","thursday","friday","saturday"];
 
 date.innerHTML = today.getDate();
-day.innerHTML = today.getDay();
+day.innerHTML = weekDays[toUpperCase(today.getDay())];
 month.innerHTML = today.getMonth();
 year.innerHTML = today.getFullYear();
