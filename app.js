@@ -24,12 +24,19 @@ const today = new Date();
 
 
 
-const weekDays = ["sunday","monday","tuesday","wednessday","thursday","friday","saturday"];
+let weekDays = ["sunday","monday","tuesday","wednessday","thursday","friday","saturday"];
+
+
+
+
+
+
+
 
 const allMonths =["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 
 date.innerHTML = (today.getDate() < 10 ?"0" : "") + today.getDate();
-day.innerHTML = weekDays[today.getDay()];
+day.innerHTML = weekDays[6].toUpperCase([today.getDay()]);
 month.innerHTML = allMonths[today.getMonth()];
 year.innerHTML = today.getFullYear();
